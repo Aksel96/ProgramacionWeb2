@@ -1,0 +1,13 @@
+#fuente{
+  background-color: aqua;
+  height: 60px;
+  width: 60px;
+  border: 2px solid;
+}
+
+#destino{
+  background-color:chocolate;
+  height: 100px;
+  width: 100px;
+  border: 2px solid;
+}
