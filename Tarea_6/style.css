@@ -1,0 +1,55 @@
+:root {
+    --color-1: rgb(227, 161, 184);
+    --color-2: rgb(243, 227, 236);
+    --color-3: rgb(157, 120, 190);
+    --color-4: rgb(79, 50, 103);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-2);
+    text-align: center;
+    color: var(--color-4);
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: var(--color-4);
+}
+
+.ficha {
+    height: 60px;
+    width: 60px;
+    background-color: var(--color-1);
+    border: 2px solid var(--color-4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: grab;
+    transition: transform 0.2s ease;
+}
+
+.ficha:hover {
+    transform: scale(1.1);
+    background-color: var(--color-3);
+    color: white;
+}
+
+#dropzone {
+    height: 300px;
+    width: 300px;
+    background-color: var(--color-3);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
